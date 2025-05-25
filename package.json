@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "tests-verify": "tsc --noEmit",
+    "tests": "npx playwright test"
+  },
   "devDependencies": {
-    "@playwright/test": "^1.41.1",
-    "@types/node": "^20.11.6"
+    "@faker-js/faker": "9.8.0",
+    "@playwright/test": "1.52.0",
+    "@types/node": "20.11.6",
+    "i18next": "25.2.1",
+    "playwright-i18next-fixture": "^1.0.0"
   }
 }
